@@ -1,0 +1,62 @@
+.header__list-item:hover {
+  color: rgba(255, 110, 48, 1);
+}
+.header__list-item:focus {
+  background: rgba(188, 87, 43, 1);
+  color: $colorWhite;
+}
+.header__list-item:active {
+  color: rgba(206, 67, 7, 1);
+}
+
+.hero__container-left-button:hover ,
+.info__container-grid-button:hover ,
+.contacts__container-right-button:hover {
+  background: rgba(188, 87, 43, 1);
+}
+.hero__container-left-button:focus ,
+.info__container-grid-button:focus ,
+.contacts__container-right-button:focus {
+  background: rgba(255, 110, 48, 1);
+  outline: 3px solid rgba(206, 67, 7, 1);
+  outline-offset: -3px;
+}
+.hero__container-left-button:active ,
+.info__container-grid-button:active ,
+.contacts__container-right-button:active {
+  background: rgba(206, 67, 7, 1);
+}
+
+.projects__list-item-btn:hover {
+  background: rgba(255, 110, 48, 1);
+  border: 3px solid #FF6E30;
+}
+.projects__list-item-btn:focus {
+  background: rgba(188, 87, 43, 1);
+  border: 3px solid rgba(255, 110, 48, 1);
+}
+.projects__list-item-btn:active {
+  background: rgba(206, 67, 7, 1);
+  border: 3px solid rgba(206, 67, 7, 1);
+}
+
+
+.info__container-grid-input:hover::placeholder {
+  color: rgba(255, 110, 48, 1);
+}
+.info__container-grid-input:focus {
+  outline: 1px solid rgba(255, 110, 48, 1);
+}
+.info__container-grid-input:active {
+  color: $colorWhite;
+}
+
+.contacts__container-right-input:hover::placeholder {
+  color: rgba(255, 110, 48, 1);
+}
+.contacts__container-right-input:focus {
+  outline: 1px solid rgba(255, 110, 48, 1);
+}
+.contacts__container-right-input:active {
+  color: $colorWhite;
+}

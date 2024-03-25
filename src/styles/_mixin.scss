@@ -1,0 +1,19 @@
+@mixin listReset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin btnReset {
+  padding: 0;
+  border: 0;
+  border-color: transparent;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+@mixin styleReset {
+  margin: 0;
+  padding: 0;
+}
